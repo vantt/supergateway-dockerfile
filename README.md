@@ -1,6 +1,9 @@
 # supergateway-dockerfile
 
-Dockerfile for Supergateway which runs a MCP stdio-based servers over SSE (Server-Sent Events) with one command. This is useful for remote access, debugging, or connecting to SSE-based clients when your MCP server only speaks stdio.
+Dockerfile to run Supergateway inside docker.
+
+Supergateway is a kind of gateway/proxy which runs a MCP stdio-based servers over SSE (Server-Sent Events) with one command. This is useful for remote access, debugging, or connecting to SSE-based clients when your MCP server only speaks stdio.
+
 For detail document: https://github.com/supercorp-ai/supergateway
 
 ## Building the Docker Image
